@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 @Component({
-  selector: 'app-root',
+  // imports:[
+  //   HomeComponent,
+  //   RouterModule,
+  // ],
   templateUrl: './app.component.html',
+  selector: 'app-root',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-rent-app';
+  title = 'homes';
 }
